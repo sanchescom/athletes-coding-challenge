@@ -1,0 +1,31 @@
+{
+    "Players": [
+        {
+            "Name": "Bob Doo",
+            "Age": 37,
+            "Location": {
+                "City": "Montreal",
+                "Province": "Quebec",
+                "Country": "Canada"
+            }
+        },
+        {
+            "Name": "Tod Robinson",
+            "Age": 34,
+            "Location": {
+                "City": "Halifax",
+                "Province": "Nova Scotia",
+                "Country": "Canada"
+            }
+        },
+        {
+            "Name": "Tom Dilan",
+            "Age": 27,
+            "Location": {
+                "City": "Palo Alto",
+                "Province": "California",
+                "Country": "United States"
+            }
+        }
+    ]
+}

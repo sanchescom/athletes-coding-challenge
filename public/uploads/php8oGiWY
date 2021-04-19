@@ -1,0 +1,13 @@
+{
+    "Players": [
+        {
+            "Name": "Bob Doo",
+            "Age": 37,
+            "Location": {
+                "City": "Montreal",
+                "Province": "QC",
+                "Country": "Canada"
+            }
+        }
+    ]
+}
