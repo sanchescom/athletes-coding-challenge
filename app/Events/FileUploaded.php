@@ -11,7 +11,9 @@ use Illuminate\Queue\SerializesModels;
  */
 class FileUploaded
 {
-    use Dispatchable, InteractsWithSockets, SerializesModels;
+    use Dispatchable;
+    use InteractsWithSockets;
+    use SerializesModels;
 
     /** @var array */
     protected array $athletes;

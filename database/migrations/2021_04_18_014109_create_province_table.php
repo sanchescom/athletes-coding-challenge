@@ -14,7 +14,7 @@ class CreateProvinceTable extends Migration
     public function up()
     {
         Schema::create('provinces', function (Blueprint $table) {
-            $table->increments('id')->index();
+            $table->bigIncrements('id')->index();
             $table->string('name');
             $table->string('code');
             $table->integer('country_id');

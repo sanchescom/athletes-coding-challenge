@@ -13,7 +13,8 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
  */
 class Athlete extends Model
 {
-    use HasFactory, HasTimestamps;
+    use HasFactory;
+    use HasTimestamps;
 
     /** @var string[] */
     protected $fillable = [
