@@ -2,8 +2,9 @@
     <div>
         <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
             <h1 class="display-4">Athletes</h1>
+            <p v-if="!athletes.length" class="lead">Upload your file with athletes.</p>
         </div>
-        <table class="table table-bordered">
+        <table v-if="athletes.length" class="table table-bordered">
             <thead>
             <tr>
                 <th class="w-50">Name</th>

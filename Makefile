@@ -12,9 +12,10 @@ start: ## Execute this command to setup the dev env
 	test -f .env || cp .env.example .env
 	./vendor/bin/sail up -d
 	./vendor/bin/sail artisan key:generate
-	./vendor/bin/sail artisan migrate
+	./vendor/bin/sail artisan migrate --seed
 	./vendor/bin/sail npm install --loglevel silent
 	./vendor/bin/sail npm run dev
+	echo "Open browser http://localhost:8081/"
 
 stop: ## Stop all containers properly
 	./vendor/bin/sail down
